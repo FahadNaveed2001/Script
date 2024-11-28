@@ -10,6 +10,10 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "puppeteer": "^23.7.1"
+    "clipboardy": "^4.0.0",
+    "ffi-napi": "^4.0.3",
+    "puppeteer": "^23.7.1",
+    "ref-napi": "^3.0.3",
+    "robotjs": "^0.6.0"
   }
 }
