@@ -11,6 +11,7 @@ function generateRandomPausePoints(minPixel, maxPixel, numberOfPoints) {
   }
   return Array.from(pausePoints).sort((a, b) => a - b);
 }
+
 function generateAnotherRandomPausePoints(minPixel, maxPixel, numberOfPoints) {
   const pausePoints = new Set();
   while (pausePoints.size < numberOfPoints) {
